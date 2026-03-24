@@ -17,7 +17,7 @@ Neste projeto, diferentes modelos são treinados, avaliados e comparados para id
 
 O conjunto de dados contém informações sobre veículos usados, incluindo variáveis relacionadas às características técnicas e comerciais dos automóveis.
 
-Dependendo da versão do projeto, os atributos podem incluir informações como:
+Entre os atributos analisados, podem estar informações como:
 
 - tipo de veículo
 - marca
@@ -31,7 +31,7 @@ Dependendo da versão do projeto, os atributos podem incluir informações como:
 - data de criação do anúncio
 - preço do veículo
 
-Arquivo utilizado no projeto:
+O arquivo utilizado no projeto está organizado na pasta `datasets/`:
 
 - `car_data.csv`
 
@@ -74,7 +74,8 @@ rusty-bargain-car-price-prediction/
 ├── README.md
 ├── requirements.txt
 ├── rusty_bargain_car_price_prediction.ipynb
-└── car_data.csv
+└── datasets/
+    └── car_data.csv
 ````
 
 ## Como executar
