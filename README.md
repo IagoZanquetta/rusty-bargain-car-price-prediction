@@ -35,6 +35,10 @@ O arquivo utilizado no projeto está organizado na pasta `datasets/`:
 
 - `car_data.csv`
 
+## Objetivo do Projeto
+
+Desenvolver um modelo de machine learning capaz de prever o preço de carros usados para a Rusty Bargain, equilibrando qualidade preditiva, tempo de treinamento e velocidade de inferência.
+
 ## Objetivos da Análise
 
 Este projeto busca responder perguntas como:
@@ -115,6 +119,8 @@ Entre os principais focos do projeto, estão:
 
 ## Resultados
 
+Comparação de diferentes algoritmos de regressão e avaliação não apenas da qualidade das previsões, mas também do custo computacional associado. Identificação de uma abordagem mais adequada para uso prático, considerando a necessidade de eficiência em um cenário real de precificação.
+
 O notebook inclui:
 
 * limpeza e preparação dos dados
@@ -128,6 +134,23 @@ O notebook inclui:
 ## Conclusão
 
 Este projeto demonstra como técnicas de machine learning podem ser aplicadas para prever preços de carros usados em um contexto de negócio realista. Ao comparar modelos não apenas pela qualidade das previsões, mas também pela eficiência computacional, a análise permite selecionar uma solução mais equilibrada e viável para implementação prática.
+
+## O que foi aprendido
+
+Desenvolvimento e consolidação de habilidades em:
+- limpeza e preparação de dados tabulares
+- tratamento de variáveis categóricas
+- comparação entre modelos de regressão
+- avaliação de métricas de erro
+- análise conjunta de desempenho e custo computacional
+
+## Melhorias Futuras
+
+Possibilidades de evolução do projeto:
+- testar modelos adicionais com gradient boosting mais avançado
+- ampliar o ajuste de hiperparâmetros
+- incluir análise de importância das variáveis
+- avaliar técnicas extras de engenharia de atributos
 
 ## Autor
 
